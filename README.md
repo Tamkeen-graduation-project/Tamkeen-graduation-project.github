@@ -1,171 +1,119 @@
 # Tamkeen – Accessible E-Learning & Job Placement Platform 🌍♿
 
-**Tamkeen** is an accessibility-first educational and employment platform designed to empower persons with disabilities (PWDs) in Egypt and the Arabic-speaking world through inclusive design, AI-driven personalization, and secure, scalable technology.
+**Tamkeen** is an accessibility-first educational and employment ecosystem designed to empower persons with disabilities (PWDs) in Egypt and the Arabic-speaking world through inclusive design, AI-driven personalization, and secure, scalable engineering.
 
-This organization hosts the full technical implementation of the **Tamkeen Graduation Project (2025–2026)** developed at **Akhbar El Youm Academy – Faculty of Computer Science**.
+This repository (`Tamkeen-graduation-project.github`) serves as the organization-level overview for the **Tamkeen Graduation Project (2025–2026)** at **Akhbar El Youm Academy – Faculty of Computer Science**.
 
 ---
 
-## 🎯 Project Vision
-To bridge the accessibility gap in digital education and employment by providing:
-- WCAG 2.1 AA compliant learning experiences
+## 🎯 Vision
+To bridge the accessibility gap in digital education and employment by delivering:
+- WCAG-aligned learning experiences
 - Disability-aware AI personalization
 - Arabic-first accessible interfaces
-- Direct pathways from learning to employment
+- Direct pathways from learning to employability
 
-Tamkeen treats **accessibility as a core system requirement**, not a post-development enhancement.
-
----
-
-## 🧩 System Overview
-Tamkeen is built as a **modular, multi-service platform** consisting of:
-
-- Web Application (Accessible UI)
-- Mobile Application (iOS & Android)
-- Backend APIs & Services
-- AI & Machine Learning Systems
-- Cybersecurity & DevSecOps Infrastructure
+Tamkeen treats **accessibility as a core requirement**, not a post-development add-on.
 
 ---
 
-## 🛠 Technology Stack
+## 🧩 Organization Repositories (Live Overview)
 
-### Frontend (Web)
-- React 18 + TypeScript
-- Tailwind CSS
-- WCAG 2.1 AA compliance
-- Screen reader & keyboard navigation support
+The `Tamkeen-graduation-project` organization currently includes the following public repositories:
 
-### Mobile Application
-- Flutter 3.8.1 (Single Codebase)
-- BLoC Architecture
-- High-contrast & adaptive UI
-- Full accessibility settings
+1. **Tamkeen-front-end**  
+   Web client for the platform (React/TypeScript/JavaScript)  
+   🔗 https://github.com/Tamkeen-graduation-project/Tamkeen-front-end
 
-### Backend
-- Node.js + Express
-- Prisma ORM
-- RESTful APIs
-- JWT Authentication + 2FA
-- PostgreSQL, MongoDB, Redis
+2. **Tamkeen-BackEnd**  
+   Core backend APIs and services (Node.js/Express/TypeScript, database integrations)  
+   🔗 https://github.com/Tamkeen-graduation-project/Tamkeen-BackEnd
 
-### AI & ML
-- Python + FastAPI
-- Hybrid Recommendation Engine
-- Semantic Embeddings (SentenceTransformers)
-- Engagement Tracking using MediaPipe & OpenCV
-- Privacy-preserving AI design
+3. **Tamkeen-mobile_app**  
+   Accessible mobile app (Flutter/Dart)  
+   🔗 https://github.com/Tamkeen-graduation-project/Tamkeen-mobile_app
 
-### Infrastructure & DevOps
-- Docker & Containerized Services
-- AWS EC2 Deployment
-- GitHub Actions CI/CD
-- Secrets Management via GitHub Secrets
+4. **Tamkeen-AI-Recommendation-Engine**  
+   Accessibility-aware recommendation and engagement intelligence services (Python)  
+   🔗 https://github.com/Tamkeen-graduation-project/Tamkeen-AI-Recommendation-Engine
 
----
+5. **Tamkeen_AI_Attention-Tracker-Using-MediaPipe**  
+   Real-time attention tracking and assistive engagement analytics (Python, MediaPipe/OpenCV)  
+   🔗 https://github.com/Tamkeen-graduation-project/Tamkeen_AI_Attention-Tracker-Using-MediaPipe
 
-## 🤖 AI Systems
+6. **Tamkeen-AI-Skill-Assessment**  
+   AI-driven skill assessment with disability-aware interaction normalization  
+   🔗 https://github.com/Tamkeen-graduation-project/Tamkeen-AI-Skill-Assessment
 
-### 🔹 Recommendation Engine
-A **7-factor hybrid recommendation system** combining:
-- Skill & difficulty alignment
-- User interests
-- Collaborative filtering
-- Accessibility compatibility
-- Semantic similarity
-- Engagement prediction
+7. **Tamkeen-Chatbot**  
+   AI learning assistant and RAG chatbot for learner support  
+   🔗 https://github.com/Tamkeen-graduation-project/Tamkeen-Chatbot
 
-Designed specifically to adapt learning paths for users with disabilities.
+8. **SOC-Automation-AI**  
+   SOC automation and threat-detection pipeline (Wazuh/SIEM-oriented security automation)  
+   🔗 https://github.com/Tamkeen-graduation-project/SOC-Automation-AI
 
-### 🔹 Engagement Tracking System
-- Opt-in only
-- Local processing (no video storage)
-- Supports attention-related disabilities (e.g. ADHD)
-- Non-punitive, assistive feedback model
+9. **Infrastructure**  
+   Infrastructure orchestration and deployment assets (Docker/Compose and environment support)  
+   🔗 https://github.com/Tamkeen-graduation-project/Infrastructure
+
+10. **Tamkeen-graduation-project.github**  
+    Organization profile/landing repository and high-level documentation  
+    🔗 https://github.com/Tamkeen-graduation-project/Tamkeen-graduation-project.github
 
 ---
 
-## ♿ Accessibility First
-Tamkeen fully adheres to **WCAG 2.1 Level AA**, including:
-- Screen reader compatibility
-- Keyboard-only navigation
-- High-contrast & dark modes
-- Adjustable font sizes up to 200%
-- Captions & accessible media controls
-- Disability-aware personalization
+## 🛠 Platform Capabilities by Domain
 
-Accessibility decisions are validated at **design, development, and testing stages**.
+### Frontend & User Experience
+- Accessible web interface focused on inclusive navigation and readability
+- Client-side implementation supporting modern interactive learning experiences
 
----
+### Mobile Accessibility
+- Single-codebase mobile app with accessibility-conscious UI patterns
+- Supports on-the-go learning and interaction for diverse user needs
 
-## 🔐 Security & DevSecOps
+### Backend Services
+- Scalable API layer for authentication, content, progress, and platform integration
+- Data persistence and service orchestration for core product workflows
 
-Security is integrated across the entire SDLC:
+### AI & Personalization
+- Recommendation systems to adapt content to skills/interests/accessibility needs
+- Attention tracking and engagement-aware assistance modules
+- AI-based assessment and chatbot support for guided learning
 
-- Principle of Least Privilege (GitHub Organization)
-- Separate repositories per team
-- CI/CD security enforcement
-- Static & Dynamic Application Security Testing
-- Secure secrets handling
-- Hardened cloud infrastructure
-- Docker-based deployment workflows
-
----
-
-## 🏗 Organization Structure
-
-### Teams
-- **Frontend Team**
-- **Backend Team**
-- **Mobile Team**
-- **AI Team**
-- **Cybersecurity Team**
-
-Each team owns its repository with controlled access, while cross-team visibility is maintained through read-only permissions.
+### Security & Operations
+- SOC-focused automation and security telemetry experimentation
+- Infrastructure repository for deployment and environment consistency
+- CI/CD and secure engineering practices across repos
 
 ---
 
-## 📦 Repositories
-This organization contains:
-- Web frontend implementation
-- Backend services & APIs
-- Mobile application
-- AI & ML systems
-- Security, CI/CD, and infrastructure configurations
-
-Each repository includes its own documentation and setup instructions.
+## ♿ Accessibility Commitment
+Tamkeen is built around inclusive engineering principles:
+- Assistive-technology-friendly user journeys
+- Accessible design considerations across web and mobile
+- Personalization logic that accounts for disability-related interaction differences
+- Ethical AI direction with privacy-conscious implementation decisions
 
 ---
 
-## 👥 Project Team
-**Graduation Project – Academic Year 2025–2026**
-
-Developed by students of  
+## 👥 Academic Context
+**Graduation Project – Academic Year 2025–2026**  
 **Faculty of Computer Science – Akhbar El Youm Academy**
 
-Supervised by:  
-**Dr. Engy Abdelmaaboud**
+Supervised by: **Dr. Engy Abdelmaaboud**
 
 ---
 
-## 🚀 Project Status
-✅ System architecture designed  
-✅ Core backend APIs implemented  
-✅ Web & mobile UI developed  
-✅ AI systems prototyped  
-✅ Security & DevSecOps workflows applied  
-
-🔜 Next phases include:
-- Full production deployment
-- Real user testing with PWDs
-- Advanced AI optimization
-- Sign language avatar integration
-- Employer partnerships
+## 🚀 Status Snapshot (as of June 19, 2026)
+- ✅ Multi-repository architecture established across frontend, backend, mobile, AI, and security tracks
+- ✅ Core implementation tracks are active with recent repository updates
+- ✅ AI modules expanded beyond recommendation to assessment, chatbot, and attention analysis
+- ✅ Infrastructure and security automation repositories are integrated into the organization ecosystem
 
 ---
 
 ## 🌱 Mission Statement
 > *Accessibility is not a feature — it is a right.*  
-Tamkeen exists to ensure that no learner is excluded from education or opportunity due to disability.
-
----
+Tamkeen exists to ensure no learner is excluded from education or opportunity due to disability.
