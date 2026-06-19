@@ -1,4 +1,4 @@
-# Tamkeen – Accessible E-Learning & Job Placement Platform 🌍♿
+# Tamkeen – Accessible E-Learning & Job Preparation Platform 🌍♿
 
 **Tamkeen** is an accessibility-first educational and employment ecosystem designed to empower persons with disabilities (PWDs) in Egypt and the Arabic-speaking world through inclusive design, AI-driven personalization, and secure, scalable engineering.
 
